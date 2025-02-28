@@ -14,6 +14,7 @@ Currently, users can send messages, which are displayed in a chat window.
 - HTML
 - CSS
 - JavaScript
+- Python
 
 ## Future Improvements
 - Backend integration with Python(FastAPI)

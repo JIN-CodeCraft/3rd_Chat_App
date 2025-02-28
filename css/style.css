@@ -33,8 +33,10 @@ header {
 
 .chat-box {
     flex: 1;
+    max-height: 400px;
     padding: 15px;
     overflow-y: auto;
+    min-height: 400px;
     display: flex;
     flex-direction: column;
 }

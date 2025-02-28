@@ -1,7 +1,6 @@
     const messageInput = document.getElementById("message-input");
     const sendButton = document.getElementById("send-btn");
     const chatBox = document.querySelector(".chat-box");
-
     sendButton.addEventListener("click", sendMessage);
 
     messageInput.addEventListener("keypress", function(event) {
