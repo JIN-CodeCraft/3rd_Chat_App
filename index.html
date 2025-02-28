@@ -1,11 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>チャットアプリ</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <div class="chat-container">
+        <header>
+            <h1>チャットルーム</h1>
+        </header>
+        <div class="chat-box">
+            <div class="message received">
+                <p>こんにちは</p>
+                <span class="timestamp">10:12</span>
+            </div>
+            <div class="message sent">
+                <p>やっほー</p>
+                <span class="timestamp">10:13</span>
+            </div>
+        </div>
+        <div class="input-area">
+            <input type="text" id="message-input" placeholder="メッセージを入力…">
+            <button id="send-btn">📩</button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
