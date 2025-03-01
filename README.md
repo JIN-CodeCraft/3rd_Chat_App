@@ -5,19 +5,18 @@ This is a simple chat app.
 Currently, users can send messages, which are displayed in a chat window.
 
 ## Features
-- Send messages and displau them in the chat window
-- Messages are aligned differently for sender and receiver
-- Timestanp is displayed for each message
-- Press "Enter" or click the send button to send messages
+- Send messages from the front-end
+- Display messages in a chat window dynamically
+- Back-end API using FastAPI (Python)
+- Store messages temporarily in memory (no database yet)
+- Fetch past messages from the server
 
 ## Technologies Used
-- HTML
-- CSS
-- JavaScript
-- Python
+- Front-end : HTML, CSS, JavaScript
+- Back-end : Python(FastAPI)
+- Server : Uvicorn
 
 ## Future Improvements
-- Backend integration with Python(FastAPI)
 - User authentication (login & signup)
 - Real-time messaging
 - Chat history storage
